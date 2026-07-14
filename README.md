@@ -131,8 +131,7 @@ python codigo/scripts/summarize_alternating_benchmark.py `
   --power <power_summary.csv> --out-csv <combined.csv> --out-md <summary.md>
 ```
 
-> **Seguridad:** los parámetros de conexión deben proporcionarse en cada entorno. No deben
-> versionarse contraseñas reales ni reutilizarse credenciales expuestas en historiales previos.
+
 
 ## 6. Qué **no** está aquí y por qué
 
