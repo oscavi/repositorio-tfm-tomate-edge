@@ -1,0 +1,52 @@
+[
+  {
+    "name": "p02_img320_lr5e4_wd5e4_augmed_e25",
+    "role": "equilibrio_general",
+    "imgsz": 320,
+    "pt": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p02_img320_lr5e4_wd5e4_augmed_e25\\p02_img320_lr5e4_wd5e4_augmed_e25.pt",
+    "onnx": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p02_img320_lr5e4_wd5e4_augmed_e25\\p02_img320_lr5e4_wd5e4_augmed_e25.onnx",
+    "zenodo_top1": "0.992",
+    "plantdoc_top1": "0.7101449275362319",
+    "umair_top1": "0.9866272741408801"
+  },
+  {
+    "name": "p03_img416_lr5e4_wd5e4_augmed_e25",
+    "role": "mejor_plantdoc",
+    "imgsz": 416,
+    "pt": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p03_img416_lr5e4_wd5e4_augmed_e25\\p03_img416_lr5e4_wd5e4_augmed_e25.pt",
+    "onnx": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p03_img416_lr5e4_wd5e4_augmed_e25\\p03_img416_lr5e4_wd5e4_augmed_e25.onnx",
+    "zenodo_top1": "0.988",
+    "plantdoc_top1": "0.7391304347826086",
+    "umair_top1": "0.9874047582024569"
+  },
+  {
+    "name": "p05_img320_lr1e4_wd5e4_augmed_cos_e25",
+    "role": "mejor_zenodo_control",
+    "imgsz": 320,
+    "pt": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p05_img320_lr1e4_wd5e4_augmed_cos_e25\\p05_img320_lr1e4_wd5e4_augmed_cos_e25.pt",
+    "onnx": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p05_img320_lr1e4_wd5e4_augmed_cos_e25\\p05_img320_lr1e4_wd5e4_augmed_cos_e25.onnx",
+    "zenodo_top1": "0.994",
+    "plantdoc_top1": "0.6521739130434783",
+    "umair_top1": "0.9779194526512206"
+  },
+  {
+    "name": "p07_img320_lr5e4_wd1e3_aughigh_e25",
+    "role": "mejor_umair",
+    "imgsz": 320,
+    "pt": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p07_img320_lr5e4_wd1e3_aughigh_e25\\p07_img320_lr5e4_wd1e3_aughigh_e25.pt",
+    "onnx": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p07_img320_lr5e4_wd1e3_aughigh_e25\\p07_img320_lr5e4_wd1e3_aughigh_e25.onnx",
+    "zenodo_top1": "0.989",
+    "plantdoc_top1": "0.6811594202898551",
+    "umair_top1": "0.9917586689472866"
+  },
+  {
+    "name": "p08_img320_lr5e4_wd5e4_dropout01_e25",
+    "role": "equilibrio_umair_dropout",
+    "imgsz": 320,
+    "pt": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p08_img320_lr5e4_wd5e4_dropout01_e25\\p08_img320_lr5e4_wd5e4_dropout01_e25.pt",
+    "onnx": "F:\\TFM experimento\\training\\exports\\pareto_candidates\\p08_img320_lr5e4_wd5e4_dropout01_e25\\p08_img320_lr5e4_wd5e4_dropout01_e25.onnx",
+    "zenodo_top1": "0.988",
+    "plantdoc_top1": "0.7101449275362319",
+    "umair_top1": "0.9911366816980252"
+  }
+]

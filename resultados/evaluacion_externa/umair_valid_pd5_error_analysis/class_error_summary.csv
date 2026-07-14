@@ -1,0 +1,11 @@
+class,total,errors,accuracy,mean_error_confidence,top_confusions
+Tomato___Bacterial_spot,732,164,0.7759562841530054,0.790717577788888,Septoria leaf spot: 47; Early blight: 46; Late blight: 38
+Tomato___Early_blight,643,33,0.9486780715396579,0.8127829441518495,Late blight: 15; Septoria leaf spot: 6; Bacterial spot: 6
+Tomato___Late_blight,792,65,0.9179292929292929,0.774105998644462,Early blight: 20; Leaf Mold: 16; Bacterial spot: 14
+Tomato___Leaf_Mold,739,116,0.8430311231393776,0.8376323662955185,Late blight: 74; Early blight: 13; Septoria leaf spot: 11
+Tomato___Septoria_leaf_spot,746,145,0.8056300268096515,0.8013473106869335,Late blight: 40; Early blight: 35; Bacterial spot: 29
+Tomato___Spider_mites Two-spotted_spider_mite,435,23,0.9471264367816092,0.7685025515763656,Tomato mosaic virus: 15; Late blight: 4; Leaf Mold: 2
+Tomato___Target_Spot,457,41,0.9102844638949672,0.7187172247142326,healthy: 13; Late blight: 8; Septoria leaf spot: 7
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,498,2,0.9959839357429718,0.6355981528759003,Bacterial spot: 1; Leaf Mold: 1
+Tomato___Tomato_mosaic_virus,584,23,0.9606164383561644,0.7043724008228468,healthy: 6; Spider mites Two-spotted spider mite: 5; Late blight: 4
+Tomato___healthy,805,169,0.7900621118012422,0.7448402230556195,Late blight: 92; Bacterial spot: 34; Tomato mosaic virus: 17

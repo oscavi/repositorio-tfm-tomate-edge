@@ -1,0 +1,79 @@
+{
+  "started_at": "2026-05-21T20:59:26",
+  "runs": {
+    "p01_img224_lr5e4_wd5e4_augmed_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p02_img320_lr5e4_wd5e4_augmed_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p03_img416_lr5e4_wd5e4_augmed_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p04_img320_lr1e3_wd5e4_augmed_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p05_img320_lr1e4_wd5e4_augmed_cos_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p06_img320_lr5e4_wd1e4_auglow_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p07_img320_lr5e4_wd1e3_aughigh_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p08_img320_lr5e4_wd5e4_dropout01_e25": {
+      "status": "done",
+      "train": "skipped",
+      "seconds": 0.0,
+      "updated_at": "2026-05-21T20:59:26"
+    },
+    "p09_img320_lr5e4_wd5e4_freeze9_e25": {
+      "status": "done",
+      "train": "trained",
+      "seconds": 663.9,
+      "updated_at": "2026-05-21T21:10:30"
+    },
+    "p10_img320_lr5e4_wd5e4_mixcut_e25": {
+      "status": "done",
+      "train": "trained",
+      "seconds": 910.0,
+      "updated_at": "2026-05-21T21:25:40"
+    },
+    "p11_img224_lr5e4_wd5e4_aughigh_e10": {
+      "status": "done",
+      "train": "trained",
+      "seconds": 375.6,
+      "updated_at": "2026-05-21T21:31:55"
+    },
+    "p12_img320_sgd_lr1e2_wd5e4_augmed_e25": {
+      "status": "done",
+      "train": "trained",
+      "seconds": 1133.7,
+      "updated_at": "2026-05-21T21:50:49"
+    }
+  },
+  "finished_at": "2026-05-21T21:50:49",
+  "results_csv": "F:\\TFM experimento\\training\\runs\\pareto_sweep_2026_05_21\\pareto_training_results.csv"
+}

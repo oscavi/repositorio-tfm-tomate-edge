@@ -1,0 +1,185 @@
+Building p07_img320_lr5e4_wd1e3_aughigh_e25 int8
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +202, GPU +0, now: CPU 227, GPU 3458 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] Builder begin: CPU 243 MiB, GPU 3471 MiB
+[TensorRT] WARNING: Int8 support requested on hardware without native Int8 support, performance will be negatively affected.
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +247, now: CPU 401, GPU 3718 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +169, now: CPU 642, GPU 3887 (MiB)
+[TensorRT] INFO: Detected 1 inputs and 1 output network tensors.
+[TensorRT] INFO: Total Host Persistent Memory: 7520
+[TensorRT] INFO: Total Device Persistent Memory: 0
+[TensorRT] INFO: Total Scratch Memory: 0
+[TensorRT] INFO: [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 0 MiB, GPU 12 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +3, now: CPU 888, GPU 3868 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU -3, now: CPU 888, GPU 3865 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 888, GPU 3864 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 887, GPU 3862 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 887 MiB, GPU 3861 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU -2, now: CPU 887, GPU 3859 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +1, GPU -3, now: CPU 888, GPU 3856 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 888 MiB, GPU 3858 MiB
+[TensorRT] INFO: Starting Calibration.
+[TensorRT] INFO:   Calibrated batch 0 in 0.371285 seconds.
+[TensorRT] INFO:   Calibrated batch 1 in 0.348151 seconds.
+[TensorRT] INFO:   Calibrated batch 2 in 0.346182 seconds.
+[TensorRT] INFO:   Calibrated batch 3 in 0.340774 seconds.
+[TensorRT] INFO:   Calibrated batch 4 in 0.345552 seconds.
+[TensorRT] INFO:   Calibrated batch 5 in 0.47522 seconds.
+[TensorRT] INFO:   Calibrated batch 6 in 0.415441 seconds.
+[TensorRT] INFO:   Calibrated batch 7 in 0.403612 seconds.
+[TensorRT] INFO:   Calibrated batch 8 in 0.381584 seconds.
+[TensorRT] INFO:   Calibrated batch 9 in 0.377329 seconds.
+[TensorRT] INFO:   Calibrated batch 10 in 0.396998 seconds.
+[TensorRT] INFO:   Calibrated batch 11 in 0.389947 seconds.
+[TensorRT] INFO:   Calibrated batch 12 in 0.385749 seconds.
+[TensorRT] INFO:   Calibrated batch 13 in 0.373957 seconds.
+[TensorRT] INFO:   Calibrated batch 14 in 0.385473 seconds.
+[TensorRT] INFO:   Calibrated batch 15 in 0.381874 seconds.
+[TensorRT] INFO:   Calibrated batch 16 in 0.379718 seconds.
+[TensorRT] INFO:   Calibrated batch 17 in 0.416516 seconds.
+[TensorRT] INFO:   Calibrated batch 18 in 0.377028 seconds.
+[TensorRT] INFO:   Calibrated batch 19 in 0.373698 seconds.
+[TensorRT] INFO:   Calibrated batch 20 in 0.402557 seconds.
+[TensorRT] INFO:   Calibrated batch 21 in 0.382659 seconds.
+[TensorRT] INFO:   Calibrated batch 22 in 0.388623 seconds.
+[TensorRT] INFO:   Calibrated batch 23 in 0.390058 seconds.
+[TensorRT] INFO:   Calibrated batch 24 in 0.388633 seconds.
+[TensorRT] INFO:   Calibrated batch 25 in 0.372237 seconds.
+[TensorRT] INFO:   Calibrated batch 26 in 0.399816 seconds.
+[TensorRT] INFO:   Calibrated batch 27 in 0.386521 seconds.
+[TensorRT] INFO:   Calibrated batch 28 in 0.394195 seconds.
+[TensorRT] INFO:   Calibrated batch 29 in 0.384079 seconds.
+[TensorRT] INFO:   Calibrated batch 30 in 0.403216 seconds.
+[TensorRT] INFO:   Calibrated batch 31 in 0.395287 seconds.
+[TensorRT] INFO:   Calibrated batch 32 in 0.410253 seconds.
+[TensorRT] INFO:   Calibrated batch 33 in 0.395819 seconds.
+[TensorRT] INFO:   Calibrated batch 34 in 0.392552 seconds.
+[TensorRT] INFO:   Calibrated batch 35 in 0.399837 seconds.
+[TensorRT] INFO:   Calibrated batch 36 in 0.392371 seconds.
+[TensorRT] INFO:   Calibrated batch 37 in 0.386126 seconds.
+[TensorRT] INFO:   Calibrated batch 38 in 0.388119 seconds.
+[TensorRT] INFO:   Calibrated batch 39 in 0.390743 seconds.
+[TensorRT] INFO:   Calibrated batch 40 in 0.399574 seconds.
+[TensorRT] INFO:   Calibrated batch 41 in 0.403055 seconds.
+[TensorRT] INFO:   Calibrated batch 42 in 0.500941 seconds.
+[TensorRT] INFO:   Calibrated batch 43 in 0.402395 seconds.
+[TensorRT] INFO:   Calibrated batch 44 in 0.390835 seconds.
+[TensorRT] INFO:   Calibrated batch 45 in 0.383029 seconds.
+[TensorRT] INFO:   Calibrated batch 46 in 0.405197 seconds.
+[TensorRT] INFO:   Calibrated batch 47 in 0.425936 seconds.
+[TensorRT] INFO:   Calibrated batch 48 in 0.380942 seconds.
+[TensorRT] INFO:   Calibrated batch 49 in 0.40029 seconds.
+[TensorRT] INFO:   Calibrated batch 50 in 0.39226 seconds.
+[TensorRT] INFO:   Calibrated batch 51 in 0.404079 seconds.
+[TensorRT] INFO:   Calibrated batch 52 in 0.382387 seconds.
+[TensorRT] INFO:   Calibrated batch 53 in 0.394512 seconds.
+[TensorRT] INFO:   Calibrated batch 54 in 0.397112 seconds.
+[TensorRT] INFO:   Calibrated batch 55 in 0.397735 seconds.
+[TensorRT] INFO:   Calibrated batch 56 in 0.39184 seconds.
+[TensorRT] INFO:   Calibrated batch 57 in 0.389098 seconds.
+[TensorRT] INFO:   Calibrated batch 58 in 0.415026 seconds.
+[TensorRT] INFO:   Calibrated batch 59 in 0.41169 seconds.
+[TensorRT] INFO:   Calibrated batch 60 in 0.417752 seconds.
+[TensorRT] INFO:   Calibrated batch 61 in 0.403224 seconds.
+[TensorRT] INFO:   Calibrated batch 62 in 0.398567 seconds.
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 939, GPU 3862 (MiB)
+[TensorRT] INFO:   Post Processing Calibration data in 53.7756 seconds.
+[TensorRT] INFO: Calibration completed in 94.9964 seconds.
+[TensorRT] INFO: Writing Calibration Cache for calibrator: TRT-8001-EntropyCalibration2
+[TensorRT] WARNING: Missing scale and zero-point for tensor (Unnamed Layer* 101) [Shuffle]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[TensorRT] WARNING: Missing scale and zero-point for tensor (Unnamed Layer* 102) [Softmax]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[TensorRT] INFO: ---------- Layers Running on DLA ----------
+[TensorRT] INFO: ---------- Layers Running on GPU ----------
+[TensorRT] INFO: [GpuLayer] /model.0/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.0/act/Sigmoid), /model.0/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.1/act/Sigmoid), /model.1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.2/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.2/cv1/act/Sigmoid), /model.2/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.2/Split
+[TensorRT] INFO: [GpuLayer] /model.2/Split_0
+[TensorRT] INFO: [GpuLayer] /model.2/m.0/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.2/m.0/cv1/act/Sigmoid), /model.2/m.0/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.2/m.0/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.2/m.0/cv2/act/Sigmoid), /model.2/m.0/cv2/act/Mul), /model.2/m.0/Add)
+[TensorRT] INFO: [GpuLayer] /model.2/Split_output_1 copy
+[TensorRT] INFO: [GpuLayer] /model.2/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.2/cv2/act/Sigmoid), /model.2/cv2/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.3/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.3/act/Sigmoid), /model.3/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.4/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.4/cv1/act/Sigmoid), /model.4/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.4/Split
+[TensorRT] INFO: [GpuLayer] /model.4/Split_1
+[TensorRT] INFO: [GpuLayer] /model.4/m.0/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.4/m.0/cv1/act/Sigmoid), /model.4/m.0/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.4/m.0/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.4/m.0/cv2/act/Sigmoid), /model.4/m.0/cv2/act/Mul), /model.4/m.0/Add)
+[TensorRT] INFO: [GpuLayer] /model.4/m.1/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.4/m.1/cv1/act/Sigmoid), /model.4/m.1/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.4/m.1/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.4/m.1/cv2/act/Sigmoid), /model.4/m.1/cv2/act/Mul), /model.4/m.1/Add)
+[TensorRT] INFO: [GpuLayer] /model.4/Split_output_1 copy
+[TensorRT] INFO: [GpuLayer] /model.4/m.0/Add_output_0 copy
+[TensorRT] INFO: [GpuLayer] /model.4/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.4/cv2/act/Sigmoid), /model.4/cv2/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.5/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.5/act/Sigmoid), /model.5/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.6/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.6/cv1/act/Sigmoid), /model.6/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.6/Split
+[TensorRT] INFO: [GpuLayer] /model.6/Split_2
+[TensorRT] INFO: [GpuLayer] /model.6/m.0/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.6/m.0/cv1/act/Sigmoid), /model.6/m.0/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.6/m.0/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.6/m.0/cv2/act/Sigmoid), /model.6/m.0/cv2/act/Mul), /model.6/m.0/Add)
+[TensorRT] INFO: [GpuLayer] /model.6/m.1/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.6/m.1/cv1/act/Sigmoid), /model.6/m.1/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.6/m.1/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.6/m.1/cv2/act/Sigmoid), /model.6/m.1/cv2/act/Mul), /model.6/m.1/Add)
+[TensorRT] INFO: [GpuLayer] /model.6/Split_output_1 copy
+[TensorRT] INFO: [GpuLayer] /model.6/m.0/Add_output_0 copy
+[TensorRT] INFO: [GpuLayer] /model.6/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.6/cv2/act/Sigmoid), /model.6/cv2/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.7/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.7/act/Sigmoid), /model.7/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.8/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.8/cv1/act/Sigmoid), /model.8/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.8/Split
+[TensorRT] INFO: [GpuLayer] /model.8/Split_3
+[TensorRT] INFO: [GpuLayer] /model.8/m.0/cv1/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.8/m.0/cv1/act/Sigmoid), /model.8/m.0/cv1/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.8/m.0/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(PWN(/model.8/m.0/cv2/act/Sigmoid), /model.8/m.0/cv2/act/Mul), /model.8/m.0/Add)
+[TensorRT] INFO: [GpuLayer] /model.8/Split_output_1 copy
+[TensorRT] INFO: [GpuLayer] /model.8/cv2/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.8/cv2/act/Sigmoid), /model.8/cv2/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.9/conv/conv/Conv
+[TensorRT] INFO: [GpuLayer] PWN(PWN(/model.9/conv/act/Sigmoid), /model.9/conv/act/Mul)
+[TensorRT] INFO: [GpuLayer] /model.9/pool/GlobalAveragePool
+[TensorRT] INFO: [GpuLayer] /model.9/linear/Gemm
+[TensorRT] INFO: [GpuLayer] (Unnamed Layer* 100) [Shuffle] + (Unnamed Layer* 101) [Shuffle]
+[TensorRT] INFO: [GpuLayer] /model.9/Softmax
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 935, GPU 3878 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 935, GPU 3878 (MiB)
+[TensorRT] WARNING: Detected invalid timing cache, setup a local cache instead
+[TensorRT] ERROR: Tactic Device request: 269MB Available: 253MB. Device memory is insufficient to use tactic.
+[TensorRT] WARNING: Skipping tactic 3 due to oom error on requested size of 269 detected for tactic 4.
+[TensorRT] ERROR: Tactic Device request: 268MB Available: 252MB. Device memory is insufficient to use tactic.
+[TensorRT] WARNING: Skipping tactic 3 due to oom error on requested size of 268 detected for tactic 4.
+[TensorRT] ERROR: Tactic Device request: 274MB Available: 241MB. Device memory is insufficient to use tactic.
+[TensorRT] WARNING: Skipping tactic 3 due to oom error on requested size of 274 detected for tactic 4.
+[TensorRT] ERROR: Tactic Device request: 274MB Available: 241MB. Device memory is insufficient to use tactic.
+[TensorRT] WARNING: Skipping tactic 3 due to oom error on requested size of 274 detected for tactic 4.
+[TensorRT] INFO: Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[TensorRT] INFO: Detected 1 inputs and 1 output network tensors.
+[TensorRT] INFO: Total Host Persistent Memory: 58368
+[TensorRT] INFO: Total Device Persistent Memory: 2479104
+[TensorRT] INFO: Total Scratch Memory: 0
+[TensorRT] INFO: [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 3 MiB, GPU 221 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +2, now: CPU 940, GPU 3849 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +1, now: CPU 940, GPU 3850 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 940, GPU 3850 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 940, GPU 3850 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] Builder end: CPU 940 MiB, GPU 3850 MiB
+Using 500 calibration images
+Wrote /home/mic-710ai/tfm-experimento/engines/pareto_candidates/p07_img320_lr5e4_wd1e3_aughigh_e25_int8.engine

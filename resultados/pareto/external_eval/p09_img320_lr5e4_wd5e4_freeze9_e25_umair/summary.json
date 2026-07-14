@@ -1,0 +1,80 @@
+{
+  "total": 6431,
+  "correct": 6137,
+  "top1_accuracy": 0.9542839371792878,
+  "mean_confidence": 0.9530434599283824,
+  "pred_distribution": {
+    "Tomato___Bacterial_spot": 716,
+    "Tomato___Early_blight": 631,
+    "Tomato___Target_Spot": 464,
+    "Tomato___Septoria_leaf_spot": 710,
+    "Tomato___Leaf_Mold": 805,
+    "Tomato___Late_blight": 802,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 504,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 438,
+    "Tomato___healthy": 788,
+    "Tomato___Tomato_mosaic_virus": 573
+  },
+  "class_metrics": {
+    "Tomato___Bacterial_spot": {
+      "total": 732,
+      "correct": 667,
+      "accuracy": 0.9112021857923497,
+      "mean_confidence": 0.9092273887226491
+    },
+    "Tomato___Early_blight": {
+      "total": 643,
+      "correct": 616,
+      "accuracy": 0.9580093312597201,
+      "mean_confidence": 0.970943192532793
+    },
+    "Tomato___Late_blight": {
+      "total": 792,
+      "correct": 735,
+      "accuracy": 0.928030303030303,
+      "mean_confidence": 0.9240887179744967
+    },
+    "Tomato___Leaf_Mold": {
+      "total": 739,
+      "correct": 711,
+      "accuracy": 0.9621109607577808,
+      "mean_confidence": 0.9580772317875383
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "total": 746,
+      "correct": 670,
+      "accuracy": 0.8981233243967829,
+      "mean_confidence": 0.9078191113695702
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "total": 435,
+      "correct": 433,
+      "accuracy": 0.9954022988505747,
+      "mean_confidence": 0.9901375295101911
+    },
+    "Tomato___Target_Spot": {
+      "total": 457,
+      "correct": 454,
+      "accuracy": 0.9934354485776805,
+      "mean_confidence": 0.9831183989668831
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "total": 498,
+      "correct": 496,
+      "accuracy": 0.9959839357429718,
+      "mean_confidence": 0.9956497856412068
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "total": 584,
+      "correct": 571,
+      "accuracy": 0.9777397260273972,
+      "mean_confidence": 0.9695837054758856
+    },
+    "Tomato___healthy": {
+      "total": 805,
+      "correct": 784,
+      "accuracy": 0.9739130434782609,
+      "mean_confidence": 0.9688891460066257
+    }
+  }
+}

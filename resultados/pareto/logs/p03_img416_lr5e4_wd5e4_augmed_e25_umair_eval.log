@@ -1,0 +1,157 @@
+
+
+=== 2026-05-21T18:43:58 ===
+F:\TFM experimento\training\.venv\Scripts\python.exe F:\TFM experimento\training\scripts\eval_cls_external.py --model F:\TFM experimento\training\runs\classify\runs\pareto\p03_img416_lr5e4_wd5e4_augmed_e25\weights\best.pt --data F:\TFM experimento\training\dataset\external_prepared\umair_valid_pd5_mapped --out F:\TFM experimento\training\runs\pareto_sweep_2026_05_21\external_eval\p03_img416_lr5e4_wd5e4_augmed_e25_umair --imgsz 416 --batch 16
+WARNING 
+Inference results will accumulate in RAM unless `stream=True` is passed, which can cause out-of-memory errors for large
+sources or long-running streams and videos. See https://docs.ultralytics.com/modes/predict/ for help.
+
+Example:
+    results = model(source=..., stream=True)  # generator of Results objects
+    for r in results:
+        boxes = r.boxes  # Boxes object for bbox outputs
+        masks = r.masks  # Masks object for segment masks outputs
+        probs = r.probs  # Class probabilities for classification outputs
+
+Traceback (most recent call last):
+  File "F:\TFM experimento\training\scripts\eval_cls_external.py", line 167, in <module>
+    main()
+  File "F:\TFM experimento\training\scripts\eval_cls_external.py", line 108, in main
+    results = model.predict(paths, imgsz=args.imgsz, batch=args.batch, verbose=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\engine\model.py", line 537, in predict
+    return self.predictor.predict_cli(source=source) if is_cli else self.predictor(source=source, stream=stream)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\engine\predictor.py", line 227, in __call__
+    return list(self.stream_inference(source, model, *args, **kwargs))  # merge list of Results into one
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 40, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\engine\predictor.py", line 336, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\engine\predictor.py", line 184, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\autobackend.py", line 276, in forward
+    y = self.backend.forward(im, **forward_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\backends\pytorch.py", line 90, in forward
+    return self.model(im, augment=augment, visualize=visualize, embed=embed, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\tasks.py", line 142, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\tasks.py", line 159, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\tasks.py", line 181, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\TFM experimento\training\.venv\Lib\site-packages\ultralytics\nn\modules\block.py", line 312, in forward
+    return self.cv2(torch.cat(y, 1))
+                    ^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.44 GiB. GPU 0 has a total capacity of 10.00 GiB of which 0 bytes is free. Of the allocated memory 33.20 GiB is allocated by PyTorch, and 4.17 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+
+=== 2026-05-21T19:25:30 ===
+F:\TFM experimento\training\.venv\Scripts\python.exe F:\TFM experimento\training\scripts\eval_cls_external.py --model F:\TFM experimento\training\runs\classify\runs\pareto\p03_img416_lr5e4_wd5e4_augmed_e25\weights\best.pt --data F:\TFM experimento\training\dataset\external_prepared\umair_valid_pd5_mapped --out F:\TFM experimento\training\runs\pareto_sweep_2026_05_21\external_eval\p03_img416_lr5e4_wd5e4_augmed_e25_umair --imgsz 416 --batch 16
+{
+  "total": 6431,
+  "correct": 6350,
+  "top1_accuracy": 0.9874047582024569,
+  "mean_confidence": 0.9898915975576907,
+  "pred_distribution": {
+    "Tomato___Bacterial_spot": 730,
+    "Tomato___Early_blight": 642,
+    "Tomato___Septoria_leaf_spot": 752,
+    "Tomato___Leaf_Mold": 763,
+    "Tomato___Late_blight": 761,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 437,
+    "Tomato___healthy": 806,
+    "Tomato___Target_Spot": 456,
+    "Tomato___Tomato_mosaic_virus": 584,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 500
+  },
+  "class_metrics": {
+    "Tomato___Bacterial_spot": {
+      "total": 732,
+      "correct": 717,
+      "accuracy": 0.9795081967213115,
+      "mean_confidence": 0.9846812854291963
+    },
+    "Tomato___Early_blight": {
+      "total": 643,
+      "correct": 637,
+      "accuracy": 0.9906687402799378,
+      "mean_confidence": 0.9878530806831402
+    },
+    "Tomato___Late_blight": {
+      "total": 792,
+      "correct": 755,
+      "accuracy": 0.9532828282828283,
+      "mean_confidence": 0.9807758961211551
+    },
+    "Tomato___Leaf_Mold": {
+      "total": 739,
+      "correct": 735,
+      "accuracy": 0.9945872801082544,
+      "mean_confidence": 0.9954168383581551
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "total": 746,
+      "correct": 738,
+      "accuracy": 0.9892761394101877,
+      "mean_confidence": 0.9808437088379591
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "total": 435,
+      "correct": 435,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9983115773091371
+    },
+    "Tomato___Target_Spot": {
+      "total": 457,
+      "correct": 453,
+      "accuracy": 0.9912472647702407,
+      "mean_confidence": 0.9863807337289305
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "total": 498,
+      "correct": 497,
+      "accuracy": 0.9979919678714859,
+      "mean_confidence": 0.9979426559195461
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "total": 584,
+      "correct": 582,
+      "accuracy": 0.9965753424657534,
+      "mean_confidence": 0.9963228394315667
+    },
+    "Tomato___healthy": {
+      "total": 805,
+      "correct": 801,
+      "accuracy": 0.9950310559006211,
+      "mean_confidence": 0.9963356021028128
+    }
+  }
+}

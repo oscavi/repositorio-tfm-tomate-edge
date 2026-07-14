@@ -1,0 +1,80 @@
+{
+  "total": 1000,
+  "correct": 992,
+  "top1_accuracy": 0.992,
+  "mean_confidence": 0.99171235871315,
+  "pred_distribution": {
+    "Tomato___Bacterial_spot": 101,
+    "Tomato___Early_blight": 99,
+    "Tomato___Septoria_leaf_spot": 101,
+    "Tomato___Late_blight": 100,
+    "Tomato___Leaf_Mold": 101,
+    "Tomato___healthy": 100,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 100,
+    "Tomato___Target_Spot": 99,
+    "Tomato___Tomato_mosaic_virus": 100,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 99
+  },
+  "class_metrics": {
+    "Tomato___Bacterial_spot": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9951432716846466
+    },
+    "Tomato___Early_blight": {
+      "total": 100,
+      "correct": 97,
+      "accuracy": 0.97,
+      "mean_confidence": 0.9760091543197632
+    },
+    "Tomato___Late_blight": {
+      "total": 100,
+      "correct": 99,
+      "accuracy": 0.99,
+      "mean_confidence": 0.9922691792249679
+    },
+    "Tomato___Leaf_Mold": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9918035924434662
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "mean_confidence": 0.997020720243454
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "total": 100,
+      "correct": 99,
+      "accuracy": 0.99,
+      "mean_confidence": 0.9957383286952972
+    },
+    "Tomato___Target_Spot": {
+      "total": 100,
+      "correct": 98,
+      "accuracy": 0.98,
+      "mean_confidence": 0.9797060906887054
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "total": 100,
+      "correct": 99,
+      "accuracy": 0.99,
+      "mean_confidence": 0.9945868337154389
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9962864583730697
+    },
+    "Tomato___healthy": {
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "mean_confidence": 0.998559957742691
+    }
+  }
+}

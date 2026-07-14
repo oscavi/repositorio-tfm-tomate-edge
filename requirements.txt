@@ -1,0 +1,16 @@
+# Entorno de entrenamiento y exportación (PC) — Python 3.12.10
+# PyTorch se instaló con build CUDA 12.6:
+#   pip install torch==2.12.0 torchvision --index-url https://download.pytorch.org/whl/cu126
+torch==2.12.0
+torchvision
+ultralytics==8.4.50
+onnx==1.21.0
+onnxruntime
+numpy
+pandas
+matplotlib
+opencv-python
+pyyaml
+
+# Nota: la inferencia y la compilación TensorRT se realizan en el Jetson Nano
+# (JetPack 4.6: CUDA 10.2, cuDNN 8.2.1, TensorRT 8.0.1.6), fuera de este entorno de PC.

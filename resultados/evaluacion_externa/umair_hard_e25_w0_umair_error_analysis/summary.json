@@ -1,0 +1,133 @@
+{
+  "total_predictions": 6431,
+  "errors": 368,
+  "low_confidence_correct_selected": 169,
+  "hard_cases_total": 537,
+  "hard_cases_path": null,
+  "weakest_classes": [
+    {
+      "class": "Tomato___Late_blight",
+      "total": 792,
+      "errors": 102,
+      "accuracy": 0.8712121212121212,
+      "mean_error_confidence": 0.5720870737351623,
+      "top_confusions": "Leaf Mold: 32; Bacterial spot: 30; Septoria leaf spot: 22"
+    },
+    {
+      "class": "Tomato___Bacterial_spot",
+      "total": 732,
+      "errors": 88,
+      "accuracy": 0.8797814207650273,
+      "mean_error_confidence": 0.6262212461707267,
+      "top_confusions": "Septoria leaf spot: 44; Leaf Mold: 29; Late blight: 6"
+    },
+    {
+      "class": "Tomato___Septoria_leaf_spot",
+      "total": 746,
+      "errors": 76,
+      "accuracy": 0.8981233243967829,
+      "mean_error_confidence": 0.5929552779385918,
+      "top_confusions": "Bacterial spot: 22; Late blight: 18; Leaf Mold: 14"
+    },
+    {
+      "class": "Tomato___Leaf_Mold",
+      "total": 739,
+      "errors": 57,
+      "accuracy": 0.9228687415426252,
+      "mean_error_confidence": 0.611093133687973,
+      "top_confusions": "Bacterial spot: 20; Late blight: 16; Septoria leaf spot: 11"
+    }
+  ],
+  "top_confusions": [
+    {
+      "true": "Tomato___Bacterial_spot",
+      "pred": "Tomato___Septoria_leaf_spot",
+      "count": 44,
+      "share_of_class_errors": 0.5
+    },
+    {
+      "true": "Tomato___Late_blight",
+      "pred": "Tomato___Leaf_Mold",
+      "count": 32,
+      "share_of_class_errors": 0.3137254901960784
+    },
+    {
+      "true": "Tomato___Late_blight",
+      "pred": "Tomato___Bacterial_spot",
+      "count": 30,
+      "share_of_class_errors": 0.29411764705882354
+    },
+    {
+      "true": "Tomato___Bacterial_spot",
+      "pred": "Tomato___Leaf_Mold",
+      "count": 29,
+      "share_of_class_errors": 0.32954545454545453
+    },
+    {
+      "true": "Tomato___Late_blight",
+      "pred": "Tomato___Septoria_leaf_spot",
+      "count": 22,
+      "share_of_class_errors": 0.21568627450980393
+    },
+    {
+      "true": "Tomato___Septoria_leaf_spot",
+      "pred": "Tomato___Bacterial_spot",
+      "count": 22,
+      "share_of_class_errors": 0.2894736842105263
+    },
+    {
+      "true": "Tomato___Leaf_Mold",
+      "pred": "Tomato___Bacterial_spot",
+      "count": 20,
+      "share_of_class_errors": 0.3508771929824561
+    },
+    {
+      "true": "Tomato___Septoria_leaf_spot",
+      "pred": "Tomato___Late_blight",
+      "count": 18,
+      "share_of_class_errors": 0.23684210526315788
+    },
+    {
+      "true": "Tomato___Leaf_Mold",
+      "pred": "Tomato___Late_blight",
+      "count": 16,
+      "share_of_class_errors": 0.2807017543859649
+    },
+    {
+      "true": "Tomato___Septoria_leaf_spot",
+      "pred": "Tomato___Leaf_Mold",
+      "count": 14,
+      "share_of_class_errors": 0.18421052631578946
+    },
+    {
+      "true": "Tomato___Septoria_leaf_spot",
+      "pred": "Tomato___Early_blight",
+      "count": 12,
+      "share_of_class_errors": 0.15789473684210525
+    },
+    {
+      "true": "Tomato___Late_blight",
+      "pred": "Tomato___healthy",
+      "count": 11,
+      "share_of_class_errors": 0.10784313725490197
+    },
+    {
+      "true": "Tomato___Leaf_Mold",
+      "pred": "Tomato___Septoria_leaf_spot",
+      "count": 11,
+      "share_of_class_errors": 0.19298245614035087
+    },
+    {
+      "true": "Tomato___Early_blight",
+      "pred": "Tomato___Septoria_leaf_spot",
+      "count": 7,
+      "share_of_class_errors": 0.4666666666666667
+    },
+    {
+      "true": "Tomato___Bacterial_spot",
+      "pred": "Tomato___Late_blight",
+      "count": 6,
+      "share_of_class_errors": 0.06818181818181818
+    }
+  ]
+}

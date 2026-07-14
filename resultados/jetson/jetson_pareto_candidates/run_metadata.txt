@@ -1,0 +1,9 @@
+log_root=/home/mic-710ai/tfm-experimento/logs/pareto_candidates_20260522_040713
+2026-05-22T04:07:13+08:00
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p1   14G   13G  895M  94% /
+Linux ubuntu 4.9.253-tegra #2 SMP PREEMPT Fri Mar 25 04:21:28 UTC 2022 aarch64 aarch64 aarch64 GNU/Linux
+tensorrt_version=8.0.1.6
+opencv_version=4.1.1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p1   14G   13G  797M  95% /

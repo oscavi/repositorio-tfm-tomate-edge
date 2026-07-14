@@ -1,0 +1,108 @@
+{
+  "source_model": "F:\\TFM experimento\\training\\runs\\pruning\\head_prune20_recovery_e5\\head_pruned_init.pt",
+  "data": "F:\\TFM experimento\\training\\dataset\\domain_mix_zenodo_plantdoc_pd5_umair_hard",
+  "classes": [
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "epochs": 5,
+  "imgsz": 224,
+  "batch": 64,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "freeze_backbone": false,
+  "augment": true,
+  "best_val_top1": 0.6521739130434783,
+  "best_model": "F:\\TFM experimento\\training\\runs\\pruning\\head_prune20_recovery_torch_e5_lr1e4\\best.pt",
+  "last_model": "F:\\TFM experimento\\training\\runs\\pruning\\head_prune20_recovery_torch_e5_lr1e4\\last.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "lr": 9.045084971874738e-05,
+      "train": {
+        "loss": 0.44855880504009155,
+        "top1_accuracy": 0.9401652892561984,
+        "correct": 14220,
+        "total": 15125
+      },
+      "val": {
+        "loss": 1.9033593163974043,
+        "top1_accuracy": 0.6231884057971014,
+        "correct": 43,
+        "total": 69
+      }
+    },
+    {
+      "epoch": 2,
+      "lr": 6.545084971874737e-05,
+      "train": {
+        "loss": 0.40019277772824624,
+        "top1_accuracy": 0.9439338842975207,
+        "correct": 14277,
+        "total": 15125
+      },
+      "val": {
+        "loss": 1.9168958076532336,
+        "top1_accuracy": 0.6376811594202898,
+        "correct": 44,
+        "total": 69
+      }
+    },
+    {
+      "epoch": 3,
+      "lr": 3.454915028125263e-05,
+      "train": {
+        "loss": 0.38326195967492976,
+        "top1_accuracy": 0.9488264462809918,
+        "correct": 14351,
+        "total": 15125
+      },
+      "val": {
+        "loss": 1.917907110158948,
+        "top1_accuracy": 0.6521739130434783,
+        "correct": 45,
+        "total": 69
+      }
+    },
+    {
+      "epoch": 4,
+      "lr": 9.549150281252631e-06,
+      "train": {
+        "loss": 0.37189617229099114,
+        "top1_accuracy": 0.9517355371900826,
+        "correct": 14395,
+        "total": 15125
+      },
+      "val": {
+        "loss": 1.9137660610503044,
+        "top1_accuracy": 0.6521739130434783,
+        "correct": 45,
+        "total": 69
+      }
+    },
+    {
+      "epoch": 5,
+      "lr": 0.0,
+      "train": {
+        "loss": 0.3743658367306733,
+        "top1_accuracy": 0.9492892561983471,
+        "correct": 14358,
+        "total": 15125
+      },
+      "val": {
+        "loss": 1.908870574356853,
+        "top1_accuracy": 0.6376811594202898,
+        "correct": 44,
+        "total": 69
+      }
+    }
+  ]
+}

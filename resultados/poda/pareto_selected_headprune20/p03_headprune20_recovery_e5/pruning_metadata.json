@@ -1,0 +1,16 @@
+{
+  "source_model": "F:\\TFM experimento\\training\\runs\\classify\\runs\\pareto\\p03_img416_lr5e4_wd5e4_augmed_e25\\weights\\best.pt",
+  "data": "F:\\TFM experimento\\training\\dataset\\domain_mix_zenodo_plantdoc_pd5_umair_hard",
+  "params_before": 1451098,
+  "params_after_head_prune": 1382490,
+  "param_reduction": 68608,
+  "param_reduction_ratio": 0.04728005965138123,
+  "pruning": {
+    "old_head_channels": 1280,
+    "kept_head_channels": 1024,
+    "removed_head_channels": 256,
+    "requested_ratio": 0.2,
+    "actual_ratio": 0.2
+  },
+  "init_model": "F:\\TFM experimento\\training\\runs\\pruning\\pareto_selected_headprune20\\p03_headprune20_recovery_e5\\head_pruned_init.pt"
+}

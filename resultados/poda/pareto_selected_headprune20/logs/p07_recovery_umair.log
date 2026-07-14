@@ -1,0 +1,84 @@
+
+
+=== CMD ===
+F:\TFM experimento\training\.venv\Scripts\python.exe F:\TFM experimento\training\scripts\eval_cls_external.py --model F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\p07_headprune20_recovery_e5\runs\p07_headprune20_recovery_e5\weights\best.pt --data F:\TFM experimento\training\dataset\external_prepared\umair_valid_pd5_mapped --out F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\external_eval\p07_recovery_umair --imgsz 320 --batch 16 --chunk-size 256
+{
+  "total": 6431,
+  "correct": 5371,
+  "top1_accuracy": 0.8351733789457316,
+  "mean_confidence": 0.8271598483439719,
+  "pred_distribution": {
+    "Tomato___Bacterial_spot": 805,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 570,
+    "Tomato___Septoria_leaf_spot": 637,
+    "Tomato___Target_Spot": 331,
+    "Tomato___Early_blight": 577,
+    "Tomato___healthy": 955,
+    "Tomato___Late_blight": 725,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 511,
+    "Tomato___Leaf_Mold": 808,
+    "Tomato___Tomato_mosaic_virus": 512
+  },
+  "class_metrics": {
+    "Tomato___Bacterial_spot": {
+      "total": 732,
+      "correct": 600,
+      "accuracy": 0.819672131147541,
+      "mean_confidence": 0.7725408563970543
+    },
+    "Tomato___Early_blight": {
+      "total": 643,
+      "correct": 498,
+      "accuracy": 0.7744945567651633,
+      "mean_confidence": 0.7637462640531697
+    },
+    "Tomato___Late_blight": {
+      "total": 792,
+      "correct": 588,
+      "accuracy": 0.7424242424242424,
+      "mean_confidence": 0.7372123404321346
+    },
+    "Tomato___Leaf_Mold": {
+      "total": 739,
+      "correct": 651,
+      "accuracy": 0.8809201623815968,
+      "mean_confidence": 0.864226313219664
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "total": 746,
+      "correct": 547,
+      "accuracy": 0.7332439678284183,
+      "mean_confidence": 0.7543812428498715
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "total": 435,
+      "correct": 413,
+      "accuracy": 0.9494252873563218,
+      "mean_confidence": 0.9074182840599411
+    },
+    "Tomato___Target_Spot": {
+      "total": 457,
+      "correct": 303,
+      "accuracy": 0.6630196936542669,
+      "mean_confidence": 0.7193625219802106
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "total": 498,
+      "correct": 489,
+      "accuracy": 0.9819277108433735,
+      "mean_confidence": 0.9733540345746351
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "total": 584,
+      "correct": 497,
+      "accuracy": 0.851027397260274,
+      "mean_confidence": 0.9088767879731852
+    },
+    "Tomato___healthy": {
+      "total": 805,
+      "correct": 785,
+      "accuracy": 0.9751552795031055,
+      "mean_confidence": 0.9174936947430142
+    }
+  }
+}

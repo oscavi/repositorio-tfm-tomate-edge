@@ -1,0 +1,6 @@
+case_order,variant,log,engine_load_s,gpu_max_ms,gpu_mean_ms,gpu_median_ms,gpu_min_ms,gpu_p99_ms,latency_max_ms,latency_mean_ms,latency_median_ms,latency_min_ms,latency_p99_ms,loaded_engine_size_mb,throughput_qps
+01,base_fp16,01_base_fp16_trtexec_load.log,5.033,4.512,4.434,4.440,4.346,4.488,4.572,4.495,4.502,4.407,4.550,5.000,221.955
+02,prune_fp16,02_prune_fp16_trtexec_load.log,4.984,4.825,3.523,3.518,3.456,3.897,5.039,3.588,3.579,3.516,4.116,5.000,277.681
+03,base_fp16,03_base_fp16_trtexec_load.log,4.993,5.179,4.450,4.447,4.352,4.568,5.241,4.512,4.509,4.413,4.635,5.000,221.063
+04,prune_recovery_fp16,04_prune_recovery_fp16_trtexec_load.log,4.963,4.263,3.520,3.521,3.451,3.659,4.331,3.583,3.583,3.512,3.769,5.000,278.138
+05,base_fp16,05_base_fp16_trtexec_load.log,4.908,5.257,4.448,4.447,4.347,4.641,5.317,4.509,4.509,4.410,4.708,5.000,221.188

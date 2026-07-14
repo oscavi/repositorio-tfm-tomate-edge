@@ -1,0 +1,5 @@
+base,role,variant,imgsz,ratio,params_before,params_after,param_reduction_ratio,model,zenodo_top1,plantdoc_top1,umair_top1
+p03,best_plantdoc,pruned_init,416,0.20,1451098,1382490,0.04728005965138123,F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\p03_headprune20_recovery_e5\head_pruned_init.pt,0.987,0.7536231884057971,0.9863162805162494
+p03,best_plantdoc,recovery,416,0.20,1451098,1382490,0.04728005965138123,F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\p03_headprune20_recovery_e5\runs\p03_headprune20_recovery_e5\weights\best.pt,0.878,0.391304347826087,0.8148032965324211
+p07,best_umair,pruned_init,320,0.20,1451098,1382490,0.04728005965138123,F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\p07_headprune20_recovery_e5\head_pruned_init.pt,0.986,0.7101449275362319,0.9912921785103406
+p07,best_umair,recovery,320,0.20,1451098,1382490,0.04728005965138123,F:\TFM experimento\training\runs\pruning\pareto_selected_headprune20\p07_headprune20_recovery_e5\runs\p07_headprune20_recovery_e5\weights\best.pt,0.908,0.37681159420289856,0.8351733789457316

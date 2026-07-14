@@ -1,0 +1,3 @@
+log,duration_s,pom_5v_cpu_energy_j_est,pom_5v_cpu_power_mw_max,pom_5v_cpu_power_mw_mean,pom_5v_cpu_power_mw_p95,pom_5v_gpu_energy_j_est,pom_5v_gpu_power_mw_max,pom_5v_gpu_power_mw_mean,pom_5v_gpu_power_mw_p95,pom_5v_in_energy_j_est,pom_5v_in_power_mw_max,pom_5v_in_power_mw_mean,pom_5v_in_power_mw_p95,samples
+fp32_ina3221.csv,23.103,31.717,2113.000,1372.841,1668.000,59.559,4247.000,2577.955,4206.000,147.758,8912.000,6395.523,8629.000,88
+fp16_ina3221.csv,23.009,40.507,2143.000,1760.534,2062.000,71.693,4206.000,3115.943,4206.000,171.870,9196.000,7469.818,9034.000,88

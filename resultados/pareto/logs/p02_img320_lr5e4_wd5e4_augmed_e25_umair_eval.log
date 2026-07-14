@@ -1,0 +1,95 @@
+
+
+=== 2026-05-21T18:17:41 ===
+F:\TFM experimento\training\.venv\Scripts\python.exe F:\TFM experimento\training\scripts\eval_cls_external.py --model F:\TFM experimento\training\runs\classify\runs\pareto\p02_img320_lr5e4_wd5e4_augmed_e25\weights\best.pt --data F:\TFM experimento\training\dataset\external_prepared\umair_valid_pd5_mapped --out F:\TFM experimento\training\runs\pareto_sweep_2026_05_21\external_eval\p02_img320_lr5e4_wd5e4_augmed_e25_umair --imgsz 320 --batch 32
+WARNING 
+Inference results will accumulate in RAM unless `stream=True` is passed, which can cause out-of-memory errors for large
+sources or long-running streams and videos. See https://docs.ultralytics.com/modes/predict/ for help.
+
+Example:
+    results = model(source=..., stream=True)  # generator of Results objects
+    for r in results:
+        boxes = r.boxes  # Boxes object for bbox outputs
+        masks = r.masks  # Masks object for segment masks outputs
+        probs = r.probs  # Class probabilities for classification outputs
+
+{
+  "total": 6431,
+  "correct": 6345,
+  "top1_accuracy": 0.9866272741408801,
+  "mean_confidence": 0.9841925858190801,
+  "pred_distribution": {
+    "Tomato___Bacterial_spot": 737,
+    "Tomato___Early_blight": 642,
+    "Tomato___Target_Spot": 460,
+    "Tomato___Septoria_leaf_spot": 765,
+    "Tomato___Late_blight": 751,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 500,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 437,
+    "Tomato___Leaf_Mold": 750,
+    "Tomato___healthy": 808,
+    "Tomato___Tomato_mosaic_virus": 581
+  },
+  "class_metrics": {
+    "Tomato___Bacterial_spot": {
+      "total": 732,
+      "correct": 716,
+      "accuracy": 0.9781420765027322,
+      "mean_confidence": 0.9655768995890852
+    },
+    "Tomato___Early_blight": {
+      "total": 643,
+      "correct": 634,
+      "accuracy": 0.9860031104199067,
+      "mean_confidence": 0.9865978866769218
+    },
+    "Tomato___Late_blight": {
+      "total": 792,
+      "correct": 746,
+      "accuracy": 0.9419191919191919,
+      "mean_confidence": 0.9520055429276192
+    },
+    "Tomato___Leaf_Mold": {
+      "total": 739,
+      "correct": 735,
+      "accuracy": 0.9945872801082544,
+      "mean_confidence": 0.9934882958783833
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "total": 746,
+      "correct": 740,
+      "accuracy": 0.9919571045576407,
+      "mean_confidence": 0.9830739079068238
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "total": 435,
+      "correct": 435,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9961363162117443
+    },
+    "Tomato___Target_Spot": {
+      "total": 457,
+      "correct": 456,
+      "accuracy": 0.9978118161925602,
+      "mean_confidence": 0.9941698475791798
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "total": 498,
+      "correct": 498,
+      "accuracy": 1.0,
+      "mean_confidence": 0.997149416720532
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "total": 584,
+      "correct": 581,
+      "accuracy": 0.9948630136986302,
+      "mean_confidence": 0.9948039570797796
+    },
+    "Tomato___healthy": {
+      "total": 805,
+      "correct": 804,
+      "accuracy": 0.9987577639751553,
+      "mean_confidence": 0.9955373583373076
+    }
+  }
+}

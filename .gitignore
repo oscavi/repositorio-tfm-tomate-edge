@@ -1,0 +1,24 @@
+# Entornos
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Datos (descargar de las fuentes; ver README §3)
+dataset/
+datasets/
+downloads/
+data/
+
+# Artefactos pesados / específicos de hardware (regenerables)
+runs/**/weights/
+*.engine
+*.plan
+*.trt
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.tmp

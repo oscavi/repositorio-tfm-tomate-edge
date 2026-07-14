@@ -1,0 +1,9 @@
+{
+  "engine": "engines/tomato_yolov8n_cls_domainmix_pd5_umair_hard_int8.engine",
+  "data": "datasets/val/plantdoc_val_pd5_space",
+  "total": 69,
+  "correct": 39,
+  "top1_accuracy": 0.5652173913043478,
+  "elapsed_s": 6.263960838317871,
+  "images_per_s_python_runner": 11.015394537257247
+}

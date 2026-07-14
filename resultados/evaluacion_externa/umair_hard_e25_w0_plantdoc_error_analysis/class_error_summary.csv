@@ -1,0 +1,9 @@
+class,total,errors,accuracy,mean_error_confidence,top_confusions
+Tomato___Bacterial_spot,9,6,0.3333333333333333,0.858463058869044,Septoria leaf spot: 6
+Tomato___Early_blight,9,4,0.5555555555555556,0.7240165024995804,Leaf Mold: 1; healthy: 1; Septoria leaf spot: 1
+Tomato___Late_blight,10,2,0.8,0.3545073866844177,Early blight: 2
+Tomato___Leaf_Mold,6,0,1.0,0,
+Tomato___Septoria_leaf_spot,11,1,0.9090909090909091,0.724093496799469,Leaf Mold: 1
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,6,2,0.6666666666666666,0.6938306987285614,Leaf Mold: 2
+Tomato___Tomato_mosaic_virus,10,7,0.3,0.6010756194591522,Leaf Mold: 2; healthy: 1; Bacterial spot: 1
+Tomato___healthy,8,4,0.5,0.5181609243154526,Late blight: 2; Tomato mosaic virus: 1; Leaf Mold: 1
