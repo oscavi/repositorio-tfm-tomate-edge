@@ -3,7 +3,7 @@
 Material de **reproducibilidad** del Trabajo Fin de Máster sobre el despliegue local de un
 clasificador compacto de enfermedades del tomate en computación periférica, con adaptación de
 dominio progresiva, barrido de hiperparámetros (frente de Pareto), optimización numérica
-(FP16 / INT8), poda estructural y medición física sobre hardware real.
+(FP16 / INT8), poda estructural y medición física sobre hardware real. hola
 
 Este repositorio contiene **material de trazabilidad y apoyo a la reproducción del experimento**:
 código, configuraciones, predicciones, resultados de medición y modelos finales o candidatos.
